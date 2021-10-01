@@ -7,7 +7,6 @@ Learning D-Claw (probably Dig-Claw).
 * Modifying `topotools.py` in `$D-Claw/python/dclaw/` to be consistent with Python3 syntax:
   1. `print` function
   2. `range` function
-* 
 * Run `$D-Claw-apps/USGSFlume` for checking:
   1. Initialization:
      ```bash
