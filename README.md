@@ -20,9 +20,9 @@ Learning D-Claw (probably Dig-Claw).
      ```bash
      > make .exe
      ```
-The old Fortran syntax does not match the one used now (type dismatch). Add the flag in `Makefile`:
+    The old Fortran syntax does not match the one used now (type dismatch). Add the flag in `Makefile`:
 
-> FFLAGS ?= -fallow-argument-mismatch
+    > FFLAGS ?= -fallow-argument-mismatch
 
   3. Produce output:
      ```bash
