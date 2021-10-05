@@ -3,6 +3,7 @@
 Learning D-Claw (probably Dig-Claw).
 
 ## Installation
+* Download D-Claw: [src](https://github.com/geoflows/D-Claw), [apps](https://github.com/geoflows/dclaw-apps).
 * Defining necessary environment variables in `.bashrc` file.
 * Modifying `topotools.py` in `$D-Claw/python/dclaw/` to be consistent with Python3 syntax:
   1. `print` function
