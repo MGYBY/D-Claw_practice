@@ -14,6 +14,7 @@ Learning D-Claw (probably Dig-Claw).
   python> import dclaw.topotools as dt 
   ```
 * Run `$D-Claw-apps/USGSFlume` for checking:
+** Note that the compiler is gcc-gfortran. Installation on Manjaro: use the offical repo version.**
   1. Initialization:
      ```bash
      > python setinit.py
