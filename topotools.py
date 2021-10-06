@@ -212,8 +212,8 @@ def topo2writer (outfile,topo,xlower,xupper,ylower,yupper,nxpoints,nypoints, \
     Z = topo(X,Y).T
 
 
-    for jj in xrange(0,nrows):
-        for i in xrange(0,ncols):
+    for jj in range(0,nrows):
+        for i in range(0,ncols):
             j = nypoints - 1 - jj
             fout.write("%22.15e\n" % Z[i,j])
 
