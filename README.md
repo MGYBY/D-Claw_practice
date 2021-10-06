@@ -30,6 +30,13 @@ Learning D-Claw (probably Dig-Claw).
 
     > FFLAGS ?= -fallow-argument-mismatch
 
+    **Possible error:**
+    ```diff
+    -: Error: Non-numeric character in statement label at (1)
+    -call.i:1:3:
+    ```
+    This is probably because Fortran does not understand the path in `call.i`. Solution: delete `$D-Claw/geoclaw/2d/lib_dig/call.i`.
+
   3. Produce output:
      ```bash
      > make .output
